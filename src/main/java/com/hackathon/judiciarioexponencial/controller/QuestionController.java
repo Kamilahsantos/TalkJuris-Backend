@@ -1,6 +1,5 @@
 package com.hackathon.judiciarioexponencial.controller;
 
-import com.hackathon.judiciarioexponencial.model.Claim;
 import com.hackathon.judiciarioexponencial.model.Question;
 import com.hackathon.judiciarioexponencial.repository.QuestionRepository;
 import io.swagger.annotations.ApiOperation;
