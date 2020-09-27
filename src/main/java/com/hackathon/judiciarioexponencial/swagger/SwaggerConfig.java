@@ -34,7 +34,7 @@ public class SwaggerConfig {
       .version("1.0.0")
       .license("Apache License Version 2.0")
       .licenseUrl("https://www.apache.org/licenses/LICENSE-2.0")
-      .contact(new Contact("Github", "https://github.com/Kamilahsantos/apoiAME-Mega-Hack-Women-Backend",null))
+      .contact(new Contact("Github", "https://github.com/Kamilahsantos/TalkJuris-Backend",null))
       .build();
 
   }
