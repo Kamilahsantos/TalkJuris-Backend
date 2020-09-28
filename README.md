@@ -6,7 +6,9 @@ Desenvolvemos um algoritmo de busca, onde o acesso e feito pelo CPF. Feito para 
 
 
 ## 💻 Preview
+ <p> <img src="https://github.com/Kamilahsantos/TalkJuris-Backend/blob/master/src/main/resources/static/talkjurisbot.gif" width=200>
 
+ 
 
 ## Equipe
 
