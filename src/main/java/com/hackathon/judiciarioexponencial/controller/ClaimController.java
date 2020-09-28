@@ -18,10 +18,10 @@ public class ClaimController {
   @Autowired
   private ClaimRepository claimRepository;
 
-  @ApiOperation(value = "Cria uma nova reclamacao em nossa base")
+  @ApiOperation(value = "Cria uma nova reclamação em nossa base")
   @ApiResponses(value = {
-    @ApiResponse(code = 201, message = "reclamacao criada com sucesso"),
-    @ApiResponse(code = 500, message = "Ocorreu um erro interno na criacao da reclamacao, nao foi possivel completar sua requisicao")
+    @ApiResponse(code = 201, message = "Reclamação criada com sucesso"),
+    @ApiResponse(code = 500, message = "Ocorreu um erro interno na criação da reclamação, nao foi possivel completar sua requisição")
   }
   )
   @PostMapping("/claim")
@@ -29,10 +29,10 @@ public class ClaimController {
     return claimRepository.save(claim);
   }
 
-  @ApiOperation(value = "Lista todas as reclamacoes em nossa base")
+  @ApiOperation(value = "Lista todas as reclamações em nossa base")
   @ApiResponses(value = {
-    @ApiResponse(code = 200, message = "Reclamacoes listadas com sucesso "),
-    @ApiResponse(code = 500, message = "ocorreu um erro interno da listagem das reclamacoes, nao foi completar sua requisicao")
+    @ApiResponse(code = 200, message = "Reclamações listadas com sucesso "),
+    @ApiResponse(code = 500, message = "Ocorreu um erro interno da listagem das reclamações, nao foi completar sua requisição")
   }
   )
   @GetMapping("/claim/list")
