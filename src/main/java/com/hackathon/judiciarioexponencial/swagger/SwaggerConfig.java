@@ -30,7 +30,7 @@ public class SwaggerConfig {
 
     return new ApiInfoBuilder()
       .title("talkJuris")
-      .description("Aplicação Spring Boot desenvolvida para o hackathon judicário exponencial ")
+      .description("TalkJuris é uma solução que visa simplificar a consulta de andamento de processos no judiciário por meio de um algoritmo de busca e da secretária jurídica virtual Ju, é possível fazer essa consulta utlizando somente o WhatsAPP além de poder deixar dúvidas, sugestões e reclamações. ")
       .version("1.0.0")
       .license("Apache License Version 2.0")
       .licenseUrl("https://www.apache.org/licenses/LICENSE-2.0")
