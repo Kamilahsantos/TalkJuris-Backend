@@ -22,7 +22,7 @@ public class QuestionController {
   @ApiOperation(value = "Cria uma nova duvida em nossa base")
   @ApiResponses(value = {
     @ApiResponse(code = 201, message = "duvida criada com sucesso"),
-    @ApiResponse(code = 500, message = "Ocorreu um erro interno na criacao da duvida, nao foi possivel completar sua requisicao")
+    @ApiResponse(code = 500, message = "Ocorreu um erro interno na criacao da duvida, nao foi possivel completar sua requisição")
   }
   )
   @PostMapping("/question")
@@ -33,7 +33,7 @@ public class QuestionController {
   @ApiOperation(value = "Lista todas as duvidas em nossa base")
   @ApiResponses(value = {
     @ApiResponse(code = 200, message = "Duvidas listadas com sucesso "),
-    @ApiResponse(code = 500, message = "ocorreu um erro interno da listagem das duvidas, nao foi completar sua requisicao")
+    @ApiResponse(code = 500, message = "ocorreu um erro interno da listagem das duvidas, nao foi completar sua requisição")
   }
   )
   @GetMapping("/question/list")
