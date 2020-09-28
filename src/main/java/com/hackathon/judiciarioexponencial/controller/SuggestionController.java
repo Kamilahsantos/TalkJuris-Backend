@@ -19,10 +19,10 @@ public class SuggestionController {
   @Autowired
   private SuggestionRepository suggestionRepository;
 
-  @ApiOperation(value = "Cria uma nova sugestao em nossa base")
+  @ApiOperation(value = "Cria uma nova sugestão em nossa base")
   @ApiResponses(value = {
-    @ApiResponse(code = 201, message = "sugestao criada com sucesso"),
-    @ApiResponse(code = 500, message = "Ocorreu um erro interno na criacao da sugestao, nao foi possivel completar sua requisicao")
+    @ApiResponse(code = 201, message = "sugestão criada com sucesso"),
+    @ApiResponse(code = 500, message = "Ocorreu um erro interno na criação da sugestão, não foi possivel completar sua requisição")
   }
   )
   @PostMapping("/suggestion")
@@ -30,10 +30,10 @@ public class SuggestionController {
     return suggestionRepository.save(suggestion);
   }
 
-  @ApiOperation(value = "Lista todas as sugestoes em nossa base")
+  @ApiOperation(value = "Lista todas as sugestões em nossa base")
   @ApiResponses(value = {
-    @ApiResponse(code = 200, message = "sugestoes listadas com sucesso "),
-    @ApiResponse(code = 500, message = "ocorreu um erro interno da listagem das sugestoes, nao foi completar sua requisicao")
+    @ApiResponse(code = 200, message = "sugestões listadas com sucesso "),
+    @ApiResponse(code = 500, message = "ocorreu um erro interno da listagem das sugestões, não foi completar sua requisição")
   }
   )
   @GetMapping("/suggestion/list")
